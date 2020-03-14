@@ -16,7 +16,6 @@ for i in range(num):
 
 s = (0, 1)
 for c in convergents[::-1]:
-    # print(c)
     s = num_plus_frac(c, s[::-1])
 
 s = num_plus_frac(2, s[::-1])
